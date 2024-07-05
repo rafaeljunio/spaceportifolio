@@ -1,8 +1,9 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
-import { PointMaterial, Points, Preload } from '@react-three/drei'
+import { PointMaterial, Points } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber'
-// @ts-ignore
 import * as random from 'maath/random/dist/maath-random.esm'
 import React, { Suspense, useRef, useState } from 'react'
 
