@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
 import { PointMaterial, Points } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber'
+// @ts-expect-error
 import * as random from 'maath/random/dist/maath-random.esm'
 import React, { Suspense, useRef, useState } from 'react'
 
